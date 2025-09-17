@@ -1,0 +1,43 @@
+.root {
+  width: 100%;
+  min-width: max-content;
+  border-style: solid;
+  border-color: var(--rp-color-input-border);
+  border-radius: 6px;
+  border-width: var(--rp-size-border-input);
+}
+
+.select {
+  width: 100%;
+  min-width: 8rem;
+  border-radius: 6px;
+  font: var(--rp-typography-p);
+  background-color: var(--rp-color-background-subtle);
+  display: block;
+  border: none;
+  -webkit-appearance: none;
+  appearance: none;
+  color: var(--rp-color-neutral-100);
+  padding-inline: var(--rp-space-400);
+  padding-block: var(--rp-space-300);
+  /* block-size: 2.5rem; */
+  /* -webkit-border-after: 1px solid var(--cds-border-strong); */
+  /* border-block-end: 1px solid var(--cds-border-strong); */
+  cursor: pointer;
+  font-family: var(--rp-typography-text);
+  text-overflow: ellipsis;
+}
+
+.select-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline-end: var(--rp-space-400);
+}
+
+.icon-container {
+  display: flex; /* tightly wrap the icon, so it's the correct height */
+  pointer-events: none;
+  right: var(--rp-size-400);
+  top: var(--rp-size-300);
+}

@@ -1,0 +1,96 @@
+:root {
+  --rp-space-1000: 3rem;
+  --rp-space-900: 2rem;
+  --rp-space-800: 1.75rem;
+  --rp-space-700: 1.5rem;
+  --rp-space-600: 1.25rem;
+  --rp-space-500: 1rem;
+  --rp-space-400: 0.75rem;
+  --rp-space-300: 0.5rem;
+  --rp-space-200: 0.25rem;
+  --rp-space-100: 0.125rem;
+  --rp-size-1200: 30rem;
+  --rp-size-1100: 20rem;
+  --rp-size-1000: 10rem;
+  --rp-size-900: 5rem;
+  --rp-size-800: 2.5rem;
+  --rp-size-700: 2rem;
+  --rp-size-600: 1rem;
+  --rp-size-500: 0.75rem;
+  --rp-size-400: 0.5rem;
+  --rp-size-300: 0.25rem;
+  --rp-size-200: 0.125rem;
+  --rp-size-100: 0.0625rem;
+  --rp-color-warning: hsl(45 100% 50%);
+  --rp-color-success: hsl(127 71% 40%);
+  --rp-color-danger: hsl(360 80% 40%);
+  --rp-color-action: hsl(270, 85%, 60%);
+
+  --rp-color-red-100: hsl(360, 80%, 0%);
+  --rp-color-red-200: hsl(360, 80%, 10%);
+  --rp-color-red-300: hsl(360, 20%, 20%);
+  /* TODO: red ramp should work with this */
+  --rp-color-red-400: hsl(360, 80%, 30%);
+  --rp-color-red-500: hsl(360, 80%, 40%);
+  --rp-color-red-600: hsl(360, 80%, 50%);
+  --rp-color-red-700: hsl(360, 80%, 60%);
+  --rp-color-red-800: hsl(360, 80%, 70%);
+  --rp-color-red-900: hsl(360, 80%, 80%);
+
+  --rp-color-blue-200: hsl(193, 95%, 10%);
+  --rp-color-blue-300: hsl(193, 95%, 20%);
+  --rp-color-blue-400: hsl(193, 95%, 30%);
+  --rp-color-blue-500: hsl(193, 95%, 40%);
+  --rp-color-blue-600: hsl(193, 95%, 50%);
+  --rp-color-blue-700: hsl(193, 95%, 60%);
+  --rp-color-blue-800: hsl(193, 95%, 70%);
+  --rp-color-blue-900: hsl(193, 95%, 80%);
+
+  --rp-color-green-200: hsl(127, 71%, 10%);
+  --rp-color-green-300: hsl(127, 71%, 20%);
+  --rp-color-green-400: hsl(127, 71%, 30%);
+  --rp-color-green-500: hsl(127, 71%, 40%);
+  --rp-color-green-600: hsl(127, 71%, 50%);
+  --rp-color-green-700: hsl(127, 71%, 60%);
+  --rp-color-green-800: hsl(127, 71%, 70%);
+  --rp-color-green-900: hsl(127, 71%, 80%);
+
+  --rp-color-purple-100: hsl(260, 51%, 32%);
+  --rp-color-purple-200: hsl(270, 85%, 30%);
+  --rp-color-purple-300: hsl(270, 85%, 40%);
+  --rp-color-purple-400: hsl(270, 85%, 50%);
+  --rp-color-purple-500: hsl(270, 85%, 60%);
+  --rp-color-purple-600: hsl(270, 85%, 70%);
+  --rp-color-purple-700: hsl(270, 85%, 80%);
+  --rp-color-purple-800: hsl(270, 85%, 90%);
+  --rp-color-purple-900: hsl(270, 85%, 100%);
+
+  --rp-color-neutral-900: hsl(240 10% 10%);
+  --rp-color-neutral-800: hsl(240 10% 20%);
+  --rp-color-neutral-700: hsl(240 10% 30%);
+  --rp-color-neutral-600: hsl(240 10% 40%);
+  --rp-color-neutral-500: hsl(240 10% 50%);
+  --rp-color-neutral-400: hsl(240 10% 60%);
+  --rp-color-neutral-300: hsl(240 10% 70%);
+  --rp-color-neutral-200: hsl(240 10% 80%);
+  --rp-color-neutral-100: hsl(240 10% 100%);
+  --rp-typography-p: 1rem Inter;
+  --rp-typography-h6: bold 1rem Inter;
+  --rp-typography-h5: bold 1.25rem Inter;
+  --rp-typography-h4: bold 1.5rem Inter;
+  --rp-typography-h3: 500 1.75rem Inter;
+  --rp-typography-h2: bold 2rem Inter;
+  --rp-typography-h1: bold 2.5rem Inter;
+  --rp-color-text-body: var(--rp-color-neutral-100);
+  --rp-color-text-heading: var(--rp-color-neutral-100);
+  --rp-color-text-link: var(--rp-color-neutral-300);
+  --rp-color-text-link-visited: var(--rp-color-neutral-400);
+  --rp-color-background: var(--rp-color-neutral-900);
+  --rp-color-background-subtle: var(--rp-color-neutral-800);
+  --rp-color-subtle: var(--rp-color-neutral-400);
+  --rp-color-border: var(--rp-color-neutral-600);
+  --rp-color-input-border: var(--rp-color-neutral-300);
+
+  --rp-size-border: var(--rp-size-100);
+  --rp-size-border-input: var(--rp-size-200);
+}

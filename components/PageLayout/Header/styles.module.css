@@ -1,0 +1,15 @@
+.root {
+  padding-inline: var(--rp-space-300);
+  padding-block: var(--rp-space-300);
+  border-bottom-color: var(--rp-color-border);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}

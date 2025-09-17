@@ -1,0 +1,60 @@
+.root {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.input-container {
+  width: 100%;
+  display: flex;
+}
+
+.input {
+  width: 100%;
+  height: var(--rp-size-800); /* Prevent mismatched border between input and icon caused by Inter line-height */
+  background-color: var(--rp-color-background-subtle);
+
+  padding-inline: var(--rp-space-300);
+  border-right-style: none;
+  
+  border-width: var(--rp-size-border-input);
+
+  border-top-style: solid;
+  border-top-color: var(--rp-color-input-border);
+
+  border-bottom-style: solid;
+  border-bottom-color: var(--rp-color-input-border);
+
+  border-left-style: solid;
+  border-left-color: var(--rp-color-input-border);
+
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+
+  color: var(--rp-color-text-body);
+}
+
+.input:focus {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.clear-button-container {
+  padding-inline: var(--rp-space-100);
+  padding-block: var(--rp-space-100);
+  
+  border-width: var(--rp-size-border-input);
+
+  border-top-style: solid;
+  border-top-color: var(--rp-color-input-border);
+
+  border-right-style: solid;
+  border-right-color: var(--rp-color-input-border);
+
+  border-bottom-style: solid;
+  border-bottom-color: var(--rp-color-input-border);
+
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}

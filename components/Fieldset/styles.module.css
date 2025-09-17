@@ -1,0 +1,6 @@
+.root {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--rp-space-400);
+}

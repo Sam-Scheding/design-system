@@ -1,0 +1,26 @@
+.root {
+  left: -999px;
+  position: absolute;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  z-index: -999;
+}
+
+.root:focus-within,
+.root:active {
+  background-color: var(--rp-color-background);
+  top: 0px;
+  left: 0px;
+  min-width: max-content;
+  height: auto;
+  overflow: auto;
+  padding: var(--rp-space-300);
+  border-radius: 3px;
+  z-index: 999;
+}
+
+.link {
+  color: var(--rp-color-text-link);
+}

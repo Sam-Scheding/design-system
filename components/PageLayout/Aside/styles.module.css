@@ -1,0 +1,16 @@
+.root {
+  display: grid;
+  grid-auto-rows: auto 1fr;
+  height: 100vh;
+  border-left-color: var(--rp-color-border);
+  border-left-width: 1px;
+  border-left-style: solid;
+  padding-inline: var(--rp-space-300);
+  padding-block: var(--rp-space-300);
+}
+
+@media (min-width: 48rem) {
+  .expanded {
+    min-width: 320px;
+  }
+}

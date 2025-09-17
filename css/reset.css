@@ -1,0 +1,97 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--rp-color-background-subtle);
+  background-attachment: fixed;
+  font-family:
+    'Inter',
+    ui-sans-serif,
+    -apple-system,
+    'system-ui',
+    'Segoe UI',
+    Ubuntu,
+    'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--rp-color-text-body);
+
+  /* Disable snap scrolling */
+  /* height: 100%;
+  overflow: hidden; */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+textarea,
+input {
+  font: inherit;
+}
+
+/* Override Chrome's autofill styling */
+input:-webkit-autofill:focus,
+input:-webkit-autofill {
+  transition:
+    background-color 0s 600000s,
+    color 0s 600000s !important;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+  padding-left: 0;
+  margin-block: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+*:focus {
+  outline-style: solid;
+  outline-color: #F141EB;
+  outline-width: 2px;
+  border-radius: 0.25rem;
+  outline-offset: 4px;
+  z-index: 9999;
+}
+
+p {
+  margin-block: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.debug {
+  background-color: rgba(255, 0, 0, 0.1);
+}
+
+.debug-red {
+  background-color: rgba(255, 0, 0, 0.1);
+}
+
+.debug-green {
+  background-color: rgba(0, 255, 0, 0.1);
+}
+.debug-blue {
+  background-color: rgba(0, 0, 255, 0.1);
+}
+
+.line-clamp-1 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

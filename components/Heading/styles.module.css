@@ -1,0 +1,57 @@
+.root {
+  content: max-content;
+}
+
+.h1 {
+  font: var(--rp-typography-h1);
+  color: var(--rp-color-text-heading);
+}
+
+.h2 {
+  font: var(--rp-typography-h2);
+  color: var(--rp-color-text-heading);
+}
+
+.h3 {
+  font: var(--rp-typography-h3);
+  color: var(--rp-color-text-heading);
+}
+
+.h4 {
+  font: var(--rp-typography-h4);
+  color: var(--rp-color-text-heading);
+}
+
+.h5 {
+  font: var(--rp-typography-h5);
+  color: var(--rp-color-text-heading);
+}
+
+.h6 {
+  font: var(--rp-typography-h6);
+  color: var(--rp-color-text-heading);
+}
+
+.whitespace-normal {
+  white-space: normal;
+}
+
+.whitespace-wrap {
+  white-space: wrap;
+}
+
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+
+.text-align-start {
+  text-align: start;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-end {
+  text-align: end;
+}

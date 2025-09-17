@@ -1,0 +1,23 @@
+.root {
+  display: flex;
+  gap: var(--rp-space-400);
+  align-items: start;
+  color: var(--rp-color-text-heading);
+  word-wrap: break-word;
+  padding-inline: var(--rp-space-300);
+  padding-block: var(--rp-space-300);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+}
+
+
+.status-error {
+  border-color: var(--rp-color-danger);
+  background-color: var(--rp-color-red-300);
+}
+
+.status-success {
+  border-color: var(--rp-color-success);
+  background-color: var(--rp-color-green-300);
+}

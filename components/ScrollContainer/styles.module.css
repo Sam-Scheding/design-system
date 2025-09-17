@@ -1,0 +1,28 @@
+.root {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  grid-row: 1;
+}
+
+.content {
+  grid-row: 2;
+  position: relative;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: var(--rp-color-action) var(--rp-color-neutral-900);
+}
+
+.scrollable-content {
+  width: 100%;
+  position: absolute;
+}
+
+.footer {
+  grid-row: 3;
+}

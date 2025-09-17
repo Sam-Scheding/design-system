@@ -1,0 +1,44 @@
+.root {
+  min-width: max-content;
+  border: none;
+  background-color: var(--rp-color-neutral-700);
+  margin: 0;
+  padding: 0;
+  border-radius: 6px;
+  font: var(--rp-typography-p);
+  padding-inline: var(--rp-space-500);
+  height: var(--rp-size-700);
+}
+
+.action {
+  color: var(--rp-color-text-heading);
+  background-color: var(--rp-color-action);
+}
+
+.action:active {
+  color: var(--rp-color-text-heading);
+  background-color: var(--rp-color-purple-400);
+}
+
+.outline {
+  color: var(--rp-color-text-heading);
+  border-color: var(--rp-color-action);
+  background-color: transparent;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.outline:active {
+  color: var(--rp-color-text-heading);
+  border-color: var(--rp-color-purple-400);
+}
+
+.danger {
+  color: var(--rp-color-text-heading);
+  background-color: var(--rp-color-danger);
+}
+
+.danger:active {
+  color: var(--rp-color-text-heading);
+  background-color: var(--rp-color-red-400);
+}

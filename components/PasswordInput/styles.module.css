@@ -1,0 +1,20 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  height: var(--rp-size-800); /* Prevent mismatched border between input and icon caused by Inter line-height */
+  background-color: var(--rp-color-background-subtle);
+  border-width: var(--rp-size-border-input);
+
+  border-style: solid;
+  border-color: var(--rp-color-input-border);
+
+  border-radius: 6px;
+  padding-inline-start: var(--rp-space-400);
+  color: var(--rp-color-neutral-100);
+}

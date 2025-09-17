@@ -1,0 +1,11 @@
+.root {
+  word-wrap: break-word;
+}
+
+.icon-container {
+  line-height: 0;
+}
+
+.content {
+  padding-block-start: var(--rp-space-100);
+}

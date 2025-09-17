@@ -1,0 +1,16 @@
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Gap variants */
+.gap-space-100 { gap: var(--rp-space-100); }
+.gap-space-200 { gap: var(--rp-space-200); }
+.gap-space-300 { gap: var(--rp-space-300); }
+.gap-space-400 { gap: var(--rp-space-400); }
+.gap-space-500 { gap: var(--rp-space-500); }
+.gap-space-600 { gap: var(--rp-space-600); }
+.gap-space-700 { gap: var(--rp-space-700); }
+.gap-space-800 { gap: var(--rp-space-800); }
+.gap-space-900 { gap: var(--rp-space-900); }
+.gap-space-1000 { gap: var(--rp-space-1000); }
