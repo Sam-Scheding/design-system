@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react'
 
 // https://placehold.co/48x48.png
 import placeholder from './assets/48x48.png'
-import { Avatar } from './index'
+import { Avatar } from '@ds/components/Avatar'
 
 const meta = {
   title: 'Components/Avatar',

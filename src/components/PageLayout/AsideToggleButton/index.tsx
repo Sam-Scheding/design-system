@@ -1,8 +1,8 @@
-import { IconButton } from 'components/Button'
-import { InformationCircleOutline } from 'components/Icon'
+import { IconButton } from '@ds/components/Button'
+import { InformationCircleOutline } from '@ds/components/Icon'
 import { useContext } from 'react'
 
-import { PageLayoutContext } from '../context'
+import { PageLayoutContext } from '@ds/components/PageLayout/context'
 
 export const AsideToggleButton = () => {
   const { aside } = useContext(PageLayoutContext)

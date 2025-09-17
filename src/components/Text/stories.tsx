@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
 
-import { Text } from './index'
+import { Text } from '@ds/components/Text'
 
 const meta = {
   title: 'Components/Text',

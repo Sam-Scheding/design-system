@@ -1,8 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/react'
 
-import { Card } from '../Card'
+import { Card } from '@ds/components/Card'
 
-import { Flex } from './index'
+import { Flex } from '@ds/components/Flex'
 
 const meta = {
   title: 'Components/Flex',

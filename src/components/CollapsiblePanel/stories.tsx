@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
 
-import { CollapsiblePanel } from './index'
+import { CollapsiblePanel } from '@ds/components/CollapsiblePanel'
 
 const meta = {
   title: 'Components/CollapsiblePanel',

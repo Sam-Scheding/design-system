@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import { fn } from 'storybook/test'
 
-import { TextInput } from './index'
+import { TextInput } from '@ds/components/TextInput'
 
 const meta = {
   title: 'Components/TextInput',

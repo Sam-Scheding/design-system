@@ -1,7 +1,7 @@
 import { ReactNode } from 'react'
 
-import { Flex } from '../Flex'
-import { Alert, Success } from '../Icon'
+import { Flex } from '@ds/components/Flex'
+import { Alert, Success } from '@ds/components/Icon'
 
 import styles from './styles.module.css'
 

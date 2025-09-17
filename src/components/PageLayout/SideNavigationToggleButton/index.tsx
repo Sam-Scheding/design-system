@@ -1,8 +1,8 @@
-import { IconButton } from 'components/Button'
-import { Menu } from 'components/Icon'
+import { IconButton } from '@ds/components/Button'
+import { Menu } from '@ds/components/Icon'
 import { useContext } from 'react'
 
-import { PageLayoutContext } from '../context'
+import { PageLayoutContext } from '@ds/components/PageLayout/context'
 
 export const SideNavigationToggleButton = () => {
   const { sideNavigation } = useContext(PageLayoutContext)

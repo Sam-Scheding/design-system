@@ -1,9 +1,9 @@
-import { Heading } from 'components/Heading'
-import { VisuallyHidden } from 'components/VisuallyHidden'
+import { Heading } from '@ds/components/Heading'
+import { VisuallyHidden } from '@ds/components/VisuallyHidden'
 import { ReactNode } from 'react'
 
-import { PageLayoutProvider } from '../context'
-import { SkipTo } from '../SkipTo'
+import { PageLayoutProvider } from '@ds/components/PageLayout/context'
+import { SkipTo } from '@ds/components/PageLayout/SkipTo'
 
 import styles from './styles.module.css'
 

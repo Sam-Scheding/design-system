@@ -1,4 +1,4 @@
-import { Flex } from 'components/Flex'
+import { Flex } from '@ds/components/Flex'
 import { ReactNode } from 'react'
 
 import styles from './styles.module.css'

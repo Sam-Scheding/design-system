@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
 
-import { ErrorSummary } from './index'
+import { ErrorSummary } from '@ds/components/ErrorSummary'
 
 const meta = {
   title: 'Components/ErrorSummary',

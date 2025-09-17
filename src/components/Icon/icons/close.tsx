@@ -1,4 +1,4 @@
-import type { IconProps } from '../types'
+import type { IconProps } from '@ds/components/Icon'
 
 export const Close = ({ size, fill }: IconProps) => {
   return (

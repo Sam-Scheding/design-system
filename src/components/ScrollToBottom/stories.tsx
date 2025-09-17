@@ -1,16 +1,16 @@
 import type { Meta, StoryObj } from '@storybook/react'
 
-import { Button } from '../Button'
-import { Card } from '../Card'
-import { List, ListItem } from '../List'
+import { Button } from '@ds/components/Button'
+import { Card } from '@ds/components/Card'
+import { List, ListItem } from '@ds/components/List'
 import {
   ScrollContainer,
   ScrollContainerBody,
   ScrollContainerFooter,
   ScrollContainerHeader,
-} from '../ScrollContainer'
+} from '@ds/components/ScrollContainer'
 
-import { ScrollTo, useScrollToBottom } from './index'
+import { ScrollTo, useScrollToBottom } from '@ds/components/ScrollToBottom'
 
 const meta = {
   title: 'Components/ScrollToBottom',

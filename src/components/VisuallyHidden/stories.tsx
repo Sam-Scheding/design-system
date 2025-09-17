@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
 
-import { VisuallyHidden } from './index'
+import { VisuallyHidden } from '@ds/components/VisuallyHidden'
 
 const meta = {
   title: 'Components/VisuallyHidden',

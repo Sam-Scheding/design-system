@@ -1,6 +1,6 @@
 import { ReactNode, useContext, useId } from 'react'
 
-import { PageLayoutContext } from '../context'
+import { PageLayoutContext } from '@ds/components/PageLayout/context'
 
 import styles from './styles.module.css'
 

@@ -1,6 +1,6 @@
 import { ReactNode } from 'react'
 
-import { Text } from '../Text'
+import { Text } from '@ds/components/Text'
 
 interface LabelProps {
   htmlFor: string

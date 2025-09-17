@@ -1,8 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/react'
 
-import { List, ListItem } from '../List'
+import { List, ListItem } from '@ds/components/List'
 
-import { ScrollContainer, ScrollContainerBody, ScrollContainerFooter, ScrollContainerHeader } from './index'
+import { ScrollContainer, ScrollContainerBody, ScrollContainerFooter, ScrollContainerHeader } from '@ds/components/ScrollContainer'
 
 const meta = {
   title: 'Components/ScrollContainer',

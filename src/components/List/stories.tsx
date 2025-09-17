@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import { fn } from 'storybook/test'
 
-import { List, ListItem } from './index'
+import { List, ListItem } from '@ds/components/List'
 
 const meta = {
   title: 'Components/List',

@@ -1,9 +1,9 @@
-import { Flex } from 'components/Flex'
-import { Heading } from 'components/Heading'
-import { Hidden } from 'components/Hidden'
+import { Flex } from '@ds/components/Flex'
+import { Heading } from '@ds/components/Heading'
+import { Hidden } from '@ds/components/Hidden'
 import { useContext } from 'react'
 
-import { PageLayoutContext } from '../context'
+import { PageLayoutContext } from '@ds/components/PageLayout/context'
 
 import styles from './styles.module.css'
 

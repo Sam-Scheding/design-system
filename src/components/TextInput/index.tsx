@@ -1,8 +1,8 @@
 import type { DOMAttributes, InputHTMLAttributes, ReactNode } from 'react'
 
-import { IconButton } from '../Button'
-import { Close } from '../Icon'
-import { Label } from '../Label'
+import { IconButton } from '@ds/components/Button'
+import { Close } from '@ds/components/Icon'
+import { Label } from '@ds/components/Label'
 
 import styles from './styles.module.css'
 

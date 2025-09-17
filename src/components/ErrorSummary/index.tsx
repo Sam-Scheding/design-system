@@ -1,8 +1,8 @@
 import { ReactNode } from 'react'
 
-import { Card } from '../Card'
-import { Flex } from '../Flex'
-import { Alert } from '../Icon'
+import { Card } from '@ds/components/Card'
+import { Flex } from '@ds/components/Flex'
+import { Alert } from '@ds/components/Icon'
 
 import styles from './styles.module.css'
 

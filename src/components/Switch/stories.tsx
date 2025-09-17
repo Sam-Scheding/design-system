@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import { fn } from 'storybook/test'
 
-import { Switch } from './index'
+import { Switch } from '@ds/components/Switch'
 
 const meta = {
   title: 'Components/Switch',

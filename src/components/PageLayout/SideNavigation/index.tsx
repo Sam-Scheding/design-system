@@ -1,8 +1,8 @@
-import { Flex } from 'components/Flex'
+import { Flex } from '@ds/components/Flex'
 import { ReactNode, useContext, useId } from 'react'
 
-import { PageLayoutContext } from '../context'
-import { SideNavigationToggleButton } from '../SideNavigationToggleButton'
+import { PageLayoutContext } from '@ds/components/PageLayout/context'
+import { SideNavigationToggleButton } from '@ds/components/PageLayout/SideNavigationToggleButton'
 
 import styles from './styles.module.css'
 

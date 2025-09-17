@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
 
-import { ValidationStatus } from './index'
+import { ValidationStatus } from '@ds/components/ValidationStatus'
 
 const meta = {
   title: 'Components/ValidationStatus',

@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import { ReactNode } from 'react'
 
-import { Text } from '../Text'
+import { Text } from '@ds/components/Text'
 
 import placeholder from './assets/600x400.png'
 import { EmptyState } from './EmptyState/index'

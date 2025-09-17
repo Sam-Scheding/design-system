@@ -1,7 +1,7 @@
 import { ReactNode, useContext } from 'react'
 
-import { AsideToggleButton } from '../AsideToggleButton'
-import { PageLayoutContext } from '../context'
+import { AsideToggleButton } from '@ds/components/PageLayout/AsideToggleButton'
+import { PageLayoutContext } from '@ds/components/PageLayout/context'
 
 import styles from './styles.module.css'
 

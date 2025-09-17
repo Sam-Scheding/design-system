@@ -1,6 +1,6 @@
 import { ReactNode, SelectHTMLAttributes } from 'react'
 
-import { ChevronDown } from '../Icon'
+import { ChevronDown } from '@ds/components/Icon'
 
 import styles from './styles.module.css'
 

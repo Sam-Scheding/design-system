@@ -1,7 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import { fn } from 'storybook/test'
 
-import { Select, SelectItem } from './index'
+import { Select, SelectItem } from '@ds/components/Select'
+import { VisuallyHidden } from '@ds/components/VisuallyHidden'
 
 const meta = {
   title: 'Components/Select',
@@ -16,7 +17,7 @@ const meta = {
     id: { control: 'text' },
   },
   args: {
-    label: 'Select Country',
+    label: <VisuallyHidden>Select Country</VisuallyHidden>,
     id: 'country-select',
     onChange: fn(),
     children: [

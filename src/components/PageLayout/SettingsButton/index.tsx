@@ -1,5 +1,5 @@
-import { IconButton } from 'components/Button'
-import { Person } from 'components/Icon'
+import { IconButton } from '@ds/components/Button'
+import { Person } from '@ds/components/Icon'
 import { DOMAttributes } from 'react'
 
 export const SettingsButton = ({ onClick }: { onClick: DOMAttributes<HTMLButtonElement>['onClick'] }) => {

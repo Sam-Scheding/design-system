@@ -1,9 +1,9 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import { fn } from 'storybook/test'
 
-import { TextInput } from '../TextInput'
+import { TextInput } from '@ds/components/TextInput'
 
-import { Fieldset } from './index'
+import { Fieldset } from '@ds/components/Fieldset'
 
 const meta = {
   title: 'Components/Fieldset',

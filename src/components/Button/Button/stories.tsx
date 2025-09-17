@@ -3,7 +3,7 @@ import { fn } from 'storybook/test'
 
 import { Flex } from '@ds/components/Flex'
 
-import { Button } from './index'
+import { Button } from '@ds/components/Button'
 
 const meta = {
   title: 'Components/Button',

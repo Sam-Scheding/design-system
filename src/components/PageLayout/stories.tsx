@@ -1,16 +1,16 @@
 import type { Meta, StoryObj } from '@storybook/react'
 
-import { Heading } from '../Heading'
-import { List, ListItem } from '../List'
+import { Heading } from '@ds/components/Heading'
+import { List, ListItem } from '@ds/components/List'
 import {
   ScrollContainer,
   ScrollContainerBody,
   ScrollContainerFooter,
   ScrollContainerHeader,
-} from '../ScrollContainer'
-import { Text } from '../Text'
+} from '@ds/components/ScrollContainer'
+import { Text } from '@ds/components/Text'
 
-import { Aside, Header, Main, PageContent, PageLayout, SideNavigation } from './index'
+import { Aside, Header, Main, PageContent, PageLayout, SideNavigation } from '@ds/components/PageLayout'
 
 const meta = {
   title: 'Components/PageLayout',
@@ -28,9 +28,12 @@ export default meta
 type Story = StoryObj<typeof meta>
 
 export const Default: Story = {
+  args: {
+    heading: 'Page layout',
+  },
   render() {
     return (
-      <PageLayout>
+      <PageLayout heading="Page layout">
         <SideNavigation>
           <ScrollContainer>
             <ScrollContainerHeader>ScrollContainerHeader</ScrollContainerHeader>

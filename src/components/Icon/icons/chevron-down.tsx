@@ -1,4 +1,4 @@
-import type { IconProps } from '../types'
+import type { IconProps } from '@ds/components/Icon'
 
 export const ChevronDown = ({ size, fill, stroke }: IconProps) => {
   return (
