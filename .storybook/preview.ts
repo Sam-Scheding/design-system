@@ -1,10 +1,9 @@
-import type { Preview } from '@storybook/react-webpack5'
 
-import '../css/font.css'
-import '../css/reset.css'
-import '../css/tokens.css'
+import '../src/css/font.css'
+import '../src/css/reset.css'
+import '../src/css/tokens.css'
 
-const preview: Preview = {
+export default {
   parameters: {
     controls: {
       matchers: {
@@ -28,4 +27,3 @@ const preview: Preview = {
   },
 };
 
-export default preview;

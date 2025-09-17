@@ -1,6 +1,9 @@
 {
-  "extends": "../tsconfig.json",
   "compilerOptions": {
+    "paths": {
+      "@ds/components/*": ["src/components/*"],
+      "@ds/css/*": ["src/css/*"]
+    },
     "baseUrl": ".",
     "target": "es5",
     "lib": [
@@ -24,8 +27,8 @@
     "jsx": "react-jsx",
   },
   "include": [
-    "components",
-    "css",
+    "src/components",
+    "src/css",
     ".storybook"
   ]
 }
