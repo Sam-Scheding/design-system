@@ -1,0 +1,26 @@
+on:
+  push:
+    branches:
+      - "main" # change to the branch you wish to deploy from
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Deploy Storybook to GitHub Pages
+      uses: bitovi/github-actions-storybook-to-github-pages@v1.0.3
+      with:
+        # Specifies if this action should checkout the code
+        checkout: true
+        # Specifies the path of the static assets after building
+        path: storybook-static
+        # Specifies the command to run the installation.
+        install_command: yarn
+        # Specifies the command to run after npm ci for the build
+        build_command: yarn run build-storybook
+              
